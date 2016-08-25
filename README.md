@@ -10,6 +10,9 @@ As an affiliated tool of PANDA, PANDA-view is developed for statistical analysis
 ###version v1.0.0 8/1/2016
 The first release version of PANDA and PANDA-view.
 
+##Download
+Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)  
+
 ## Hardware requirements
 - Intel Pentium III/800 MHz or higher (or compatible) although one should probably not go below a dual core processor.
 - 2 GB RAM minimum.
@@ -46,7 +49,6 @@ Windows is currently the only operating system supported. Supported versions are
 - biocLite("samr")
 ##  Installation
 
-Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)  
 Please see the file named "User Guide for PANDA and PANDA-view.pdf" (coming soon).
 
 ##  Licensing
