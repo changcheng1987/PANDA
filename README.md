@@ -1,4 +1,4 @@
-#PANDA & PANDA-view (v1.0.0)
+#PANDA & PANDA-view
 
 ##What are they?
 PANDA is a novel and comprehensive software package for quantitative proteomics data analysis which is developed based on our solid foundations in quantitative proteomics for years. Additionally, PANDA provides user-friendly interfaces for parameter setting, quantification analysis and data visualization (PANDA-view). The core of PANDA was written in standard C++ language on the platform of Microsoft Visual Studio ultimate 2013 in Windows System. And the interfaces of PANDA was implemented in C# on the same platform.
@@ -7,11 +7,12 @@ As an affiliated tool of PANDA, PANDA-view is developed for statistical analysis
   
 ##The release version
 
-###version v1.0.0 8/1/2016
-The first release version of PANDA and PANDA-view.
+###version v1.0.1 (8/31/2016)
+* PANDA v1.0.1 is able to be used in Windows XP and Windows Server 2003&2008. The required minimum version of .NET Framework is changed from v4.5 to v4.0.
+* PANDA-view v1.0.1 fixed a bug when ploting the multiple XICs for precursor-labeled data.
 
-##Download
-Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)  
+###version v1.0.0 (8/1/2016)
+The first release version of PANDA and PANDA-view.
 
 ## Hardware requirements
 - Intel Pentium III/800 MHz or higher (or compatible) although one should probably not go below a dual core processor.
@@ -26,7 +27,7 @@ Windows is currently the only operating system supported. Supported versions are
 - Windows Server 2008 R2 SP1 (x64)
 - Windows Server 2008 SP2 (x86 and x64)
 - Windows Server 2012
-- .NET Framework 4.5 or higher from Microsoft
+- .NET Framework 4.0 or higher from Microsoft
 - R for Windows （only for PANDA-view）
 
 
@@ -49,6 +50,7 @@ Windows is currently the only operating system supported. Supported versions are
 - biocLite("samr")
 ##  Installation
 
+Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)  
 Please see the file named "User Guide for PANDA and PANDA-view.pdf" (coming soon).
 
 ##  Licensing
