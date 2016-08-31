@@ -51,7 +51,9 @@ The required R packages and their installation commands are listed below:
 - biocLite("R.methodsS3")
 - biocLite("matrixStats")
 - biocLite("samr")
-##  Installation
+
+
+##Installation
 
 Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)
  
