@@ -18,7 +18,7 @@ The first release version of PANDA and PANDA-view.
 - Intel Pentium III/800 MHz or higher (or compatible) although one should probably not go below a dual core processor.
 - 2 GB RAM minimum.
 ##Software requirements
-Windows is currently the only operating system supported. Supported versions are
+###Windows is currently the only operating system supported. Supported versions are
 
 - Windows Vista SP2 (x86 and x64)
 - Windows 7 SP1 (x86 and x64)
@@ -32,8 +32,11 @@ Windows is currently the only operating system supported. Supported versions are
 
 
 
-###Note1: R software can be downloaded from [https://www.r-project.org/](https://www.r-project.org/). Users should also add the directory which includes RScript.exe into the system environment variable. The method for setting system environment variable can be found at [http://www.computerhope.com/issues/ch000549.htm](http://www.computerhope.com/issues/ch000549.htm).
-###Note2: The required R packages and their installation commands are listed below:
+###Note1
+R software can be downloaded from [https://www.r-project.org/](https://www.r-project.org/). Users should also add the directory which includes RScript.exe into the system environment variable. The method for setting system environment variable can be found at [http://www.computerhope.com/issues/ch000549.htm](http://www.computerhope.com/issues/ch000549.htm).
+###Note2
+The required R packages and their installation commands are listed below:
+
 - install.packages("rgl")
 - install.packages("scatterplot3d")
 - install.packages("RColorBrewer")
@@ -50,7 +53,8 @@ Windows is currently the only operating system supported. Supported versions are
 - biocLite("samr")
 ##  Installation
 
-Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)  
+Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)
+ 
 Please see the file named "User Guide for PANDA and PANDA-view.pdf" (coming soon).
 
 ##  Licensing
