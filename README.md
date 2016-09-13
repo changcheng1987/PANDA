@@ -7,6 +7,12 @@ As an affiliated tool of PANDA, PANDA-view is developed for statistical analysis
   
 ##The release version
 
+###version v1.0.2 (9/13/2016)
+PANDA v1.0.2 contains some updates in the GUI:
+
+* max thread number is auto set according to the core number of user's computer.
+* max cached file number is set as "sample num*replicate num".
+
 ###version v1.0.1 (8/31/2016)
 * PANDA v1.0.1 is able to be used in Windows XP and Windows Server 2003&2008. The required minimum version of .NET Framework is changed from v4.5 to v4.0.
 * PANDA-view v1.0.1 fixed a bug when ploting the multiple XICs for precursor-labeled data.
@@ -28,7 +34,7 @@ The first release version of PANDA and PANDA-view.
 - Windows Server 2008 SP2 (x86 and x64)
 - Windows Server 2012
 - .NET Framework 4.0 or higher from Microsoft
-- R for Windows （only for PANDA-view）
+- R for Windows **（only for PANDA-view）**
 
 
 
