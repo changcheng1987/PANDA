@@ -6,18 +6,25 @@ PANDA is a novel and comprehensive software package for quantitative proteomics 
 As an affiliated tool of PANDA, PANDA-view is developed for statistical analysis and data visualization. The core of PANDA-view was written in Qt C++ language on the platform of Microsoft Visual Studio ultimate 2013 in Windows System.
   
 ##The release version
+###PANDA version v1.1.0 (10/15/2016) 
 
-###version v1.0.2 (9/13/2016)
+> **Important improvement**
+
+* Updates of the GUI, including the 
+* Release the x64 version which is able to handle large-scale MS data. The x64 version of PANDA is recommended.
+
+
+### PANDA version v1.0.2 (9/13/2016)
 PANDA v1.0.2 contains some updates in the GUI:
 
 * max thread number is auto set according to the core number of user's computer.
 * max cached file number is set as "sample num*replicate num".
 
-###version v1.0.1 (8/31/2016)
+###PANDA & PANDA-view version v1.0.1 (8/31/2016)
 * PANDA v1.0.1 is able to be used in Windows XP and Windows Server 2003&2008. The required minimum version of .NET Framework is changed from v4.5 to v4.0.
 * PANDA-view v1.0.1 fixed a bug when ploting the multiple XICs for precursor-labeled data.
 
-###version v1.0.0 (8/1/2016)
+###PANDA & PANDA-view version v1.0.0 (8/1/2016)
 The first release version of PANDA and PANDA-view.
 
 ## Hardware requirements
@@ -43,21 +50,20 @@ R software can be downloaded from [https://www.r-project.org/](https://www.r-pro
 ###Note2
 The required R packages and their installation commands are listed below:
 
-- install.packages("rgl")
-- install.packages("scatterplot3d")
-- install.packages("RColorBrewer")
-- install.packages("gplots")
-- install.packages("survival")
-- install.packages("coin")
-- install.packages("Rcpp")
-- install.packages("lattice")
-- source("http://bioconductor.org/biocLite.R")
-- biocLite("impute")
-- biocLite("splines")
-- biocLite("R.methodsS3")
-- biocLite("matrixStats")
-- biocLite("samr")
-
+    install.packages("rgl")
+    install.packages("scatterplot3d")
+    install.packages("RColorBrewer")
+    install.packages("gplots")
+    install.packages("survival")
+    install.packages("coin")
+    install.packages("Rcpp")
+    install.packages("lattice")
+    source("http://bioconductor.org/biocLite.R")
+    biocLite("impute")
+    biocLite("splines")
+    biocLite("R.methodsS3")
+    biocLite("matrixStats")
+    biocLite("samr")
 
 ##Installation
 
@@ -67,11 +73,11 @@ Please see the file named "User Guide for PANDA and PANDA-view.pdf" (coming soon
 
 ##  Licensing
 
-  Please see the file called "LICENSE.md" and "LICENSE_Chinese.md".
+  Please see the file called "LICENSE_English.pdf" or "LICENSE_Chinese.pdf".
 
 ##  Contacts
 
-  For any questions involving PANDA and PANDA-view, please contact Dr. Cheng Chang (Email: 1987ccpacer@163.com or 1987ccpacer@gmail.com).
+  For any questions involving PANDA and PANDA-view, please contact [Dr. Cheng Chang](https://www.linkedin.com/in/cheng-chang-5263b439 "LinkedIn") (Email: [1987ccpacer@163.com](mailto:1987ccpacer@163.com) or [1987ccpacer@gmail.com](mailto:1987ccpacer@gmail.com)).
 
 ## Copyright
 
