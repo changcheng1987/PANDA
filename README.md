@@ -6,6 +6,11 @@ PANDA is a novel and comprehensive software package for quantitative proteomics 
 As an affiliated tool of PANDA, PANDA-view is developed for statistical analysis and data visualization. The core of PANDA-view was written in Qt C++ language on the platform of Microsoft Visual Studio ultimate 2013 in Windows System.
   
 ##The release version
+
+### PANDA version v1.1.1 (1/13/2017)
+* Bugs about the parallel mode and the XML output function are corrected.
+* Print the ModifiedSeq (ReadableMod) of peptide in PepList files.
+
 ###PANDA version v1.1.0 (10/15/2016) 
 
 > **Important improvement**
