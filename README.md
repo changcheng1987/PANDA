@@ -1,5 +1,5 @@
 #PANDA & PANDA-view
-
+[![DOI](https://zenodo.org/badge/66350175.svg)](https://zenodo.org/badge/latestdoi/66350175)
 ##What are they?
 PANDA is a novel and comprehensive software package for quantitative proteomics data analysis which is developed based on our solid foundations in quantitative proteomics for years. Additionally, PANDA provides user-friendly interfaces for parameter setting, quantification analysis and data visualization (PANDA-view). The core of PANDA was written in standard C++ language on the platform of Microsoft Visual Studio ultimate 2013 in Windows System. And the interfaces of PANDA was implemented in C# on the same platform.
 
