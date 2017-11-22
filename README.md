@@ -1,13 +1,13 @@
-# PANDA & PANDA-view
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846549.svg)](https://doi.org/10.5281/zenodo.846549)
-## What are they?
-PANDA is a novel and comprehensive software package for quantitative proteomics data analysis which is developed based on our solid foundations in quantitative proteomics for years. Additionally, PANDA provides user-friendly interfaces for parameter setting, quantification analysis and data visualization (PANDA-view). The core of PANDA was written in standard C++ language on the platform of Microsoft Visual Studio ultimate 2013 in Windows System. And the interfaces of PANDA was implemented in C# on the same platform.
+# PANDA
 
-As an affiliated tool of PANDA, PANDA-view is developed for statistical analysis and data visualization. The core of PANDA-view was written in Qt C++ language on the platform of Microsoft Visual Studio ultimate 2013 in Windows System.
+## What is it?
+PANDA is a novel and comprehensive software package for quantitative proteomics data analysis which is developed based on our solid foundations in quantitative proteomics for years. The advantage algorithms of our previous works, i.e. LFQuant ([Proteomics 2012, 12, (23-24), 3475-84](https://www.ncbi.nlm.nih.gov/pubmed/23081734)) and SILVER ([Bioinformatics 2014, 30, (4), 586-7](https://www.ncbi.nlm.nih.gov/pubmed/24344194)) have been implemented into PANDA. The core of PANDA was written in standard C++ language on the platform of Microsoft Visual Studio ultimate 2017 in Windows System. And the interfaces of PANDA was implemented in C# on the same platform.
+
 ## The release version
 ### PANDA version v1.1.2 (8/22/2017)
 * Bugs about merging multiple samples in label-free are corrected.
-* The development environment is changed from VS2013 to VS2017. So users need to install [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://www.visualstudio.com/zh-hans/downloads/) first before using PANDA. 
+* The development environment is changed from VS2013 to VS2017. So users need to install [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://www.visualstudio.com/zh-hans/downloads/) first before using PANDA.
+* PANDA no longer supports the 32 bit OS. The x64 version of PANDA is the official release now.
 
 ### PANDA version v1.1.1 (1/13/2017)
 * Bugs about the parallel mode and the XML output function are corrected.
@@ -44,49 +44,27 @@ The first release version of PANDA and PANDA-view.
 * [Download link](https://go.microsoft.com/fwlink/?LinkId=746571) for x86
 ### Windows is currently the only operating system supported. Supported versions are
 
-- Windows Vista SP2 (x86 and x64)
-- Windows 7 SP1 (x86 and x64)
+- Windows Vista SP2 (x64)
+- Windows 7 SP1 (x64)
 - Windows 8
 - Windows 10
 - Windows Server 2008 R2 SP1 (x64)
-- Windows Server 2008 SP2 (x86 and x64)
+- Windows Server 2008 SP2 (x64)
 - Windows Server 2012
 - .NET Framework 4.0 or higher from Microsoft
-- R for Windows **（only for PANDA-view）**
 
-
-
-### Note1
-R software can be downloaded from [https://www.r-project.org/](https://www.r-project.org/). Users should also add the directory which includes RScript.exe into the system environment variable. The method for setting system environment variable can be found at [http://www.computerhope.com/issues/ch000549.htm](http://www.computerhope.com/issues/ch000549.htm).
-### Note2
-The required R packages and their installation commands are listed below:
-
-    install.packages("rgl")
-    install.packages("scatterplot3d")
-    install.packages("RColorBrewer")
-    install.packages("gplots")
-    install.packages("survival")
-    install.packages("coin")
-    install.packages("Rcpp")
-    install.packages("lattice")
-    source("http://bioconductor.org/biocLite.R")
-    biocLite("impute")
-    biocLite("splines")
-    biocLite("R.methodsS3")
-    biocLite("matrixStats")
-    biocLite("samr")
 
 ## Installation
 
 Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)
  
-Please see the file named "User Guide for PANDA and PANDA-view.pdf" (coming soon).
+Please see "User manual for PANDA.pdf" for details.
 
-##  Licensing
+##  License
 
   Please see the file called "LICENSE_English.pdf" or "LICENSE_Chinese.pdf".
 
-##  Contacts
+##  Contact
 
   For any questions involving PANDA and PANDA-view, please contact [Dr. Cheng Chang](https://www.linkedin.com/in/cheng-chang-5263b439 "LinkedIn") (Email: [1987ccpacer@163.com](mailto:1987ccpacer@163.com) or [1987ccpacer@gmail.com](mailto:1987ccpacer@gmail.com)).
 
