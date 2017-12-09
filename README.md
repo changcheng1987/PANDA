@@ -39,11 +39,12 @@ The first release version of PANDA.
 ## Software requirements
 
 ### (1) Microsoft Visual C++ Redistributable for Visual Studio 2017 is required since v1.1.2
+
 * [Download link](https://go.microsoft.com/fwlink/?LinkId=746572) for x64
 * [Download link](https://go.microsoft.com/fwlink/?LinkId=746571) for x86
-###(2) [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) or higher from Microsoft
+### (2) [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) or higher from Microsoft
 
-###(3) MSFileReader
+### (3) MSFileReader
 
 Both 32bit and 64bit versions are required to be installed to access Thermo raw files. The latest version MSFileReader 3.0 SP3 can be downloaded from [here](https://thermo.flexnetoperations.com/control/thmo/download?element=6306677).
 
