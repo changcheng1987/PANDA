@@ -50,7 +50,6 @@ Both 32bit and 64bit versions are required to be installed to access Thermo raw 
 
 ### Windows is currently the only operating system supported. Supported versions are
 
-- Windows Vista SP2 (x64)
 - Windows 7 SP1 (x64)
 - Windows 8
 - Windows 10
