@@ -61,7 +61,7 @@ Both 32bit and 64bit versions are required to be installed to access Thermo raw 
 
 Download link: [https://sourceforge.net/projects/panda-tools/](https://sourceforge.net/projects/panda-tools/)
 
-Please see "User manual for PANDA.pdf" for details.
+Please see "User Manual for PANDA.pdf" for details.
 
 ## Test data
 
